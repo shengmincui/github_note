@@ -86,7 +86,6 @@ git reflog
 git checkout 185fe31 -- test.py #前面是commit id 后面是文件
 ```
 
-## Github
 
 
 
