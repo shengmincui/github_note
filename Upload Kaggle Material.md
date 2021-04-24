@@ -51,8 +51,9 @@ git clone https://github.com/shengmincui/AI_Competitions_2.git
 
 ## Pull Request
 
-1. change your branch
-2. click Pull request button
+1. open your github link: https://github.com/shengmincui/AI_Competitions_2
+2. change your branch
+3. click Pull request button
 
 ![](./img/pullrequest1.jpg)
 
