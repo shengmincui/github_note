@@ -6,7 +6,17 @@
 
 2. click Fork button (点击Fork):
 
-    ![](./img/fork.jpg)
+    ![fork](./img/fork.jpg)
 
-## Download
+## Clone the Project
+
+1. open cmd or terminal (打开命令提示符(windows)或者终端(mac or linux))
+
+```bash
+git clone https://github.com/shengmincui/AI_Competitions_2.git
+```
+
+![clonelink](./img/clonelink.jpg)
+
+
 
