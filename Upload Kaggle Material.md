@@ -7,7 +7,7 @@
 1. link (链接): https://git-scm.com/
 2. 配置git环境变量
 
-![system enviroment](./img/system enviroment.png)
+![systemenviroment](./img/systemenviroment.png)
 
 ## Sign up GitHub
 
