@@ -5,8 +5,9 @@
 ## Download and Install git (下载和安装git)
 
 1. link (链接): https://git-scm.com/
+2. 配置git环境变量
 
-
+![system enviroment](./img/system enviroment.png)
 
 ## Sign up GitHub
 
@@ -21,7 +22,9 @@
 
 ![fork](./img/fork.jpg)
 
+3. Fork之后会进入自己的github仓库，如图，自己的仓库中出现了AI_Competitions_2的项目
 
+   ![myproject](./img/myproject.png)
 
 
 
@@ -35,41 +38,59 @@ git clone https://github.com/shengmincui/AI_Competitions_2.git
 
 ![clonelink](./img/clonelink.jpg)
 
-
+2. AI_Competitions_2文件夹已经成功下载到本地
 
 ## Prepare your kaggle files
 
 ![](./img/kagglefile.jpg)
 
+1. 将需要提交的所有文件放在一个文件夹里，命名为kaggle比赛的名字
+
+   ![projectfile](./img/projectfile.png)
+
+2. 将整个文件放到下载的AI_Competitions_2/kaggle中
+
+   ![file](./img/file.png)
+
 
 
 ## Submit Your Files (提交你的文件)
 
- 1. Create a Branch (创建一个分支)
+ 1. 进入终端，进入到AI_Competitions_2路径
+
+    ![cmd-AI](./img/cmd-AI.png)
+
+ 2. Create a Branch (创建并进入一个分支)
+
+    命令为 git checkout -b 分支名
 
     ```bash
     git checkout -b test
     ```
 
- 2. Save your changes (保存修改)
+ 3. Save your changes (保存修改)
 
     ```bash
     git add .
     ```
 
-    3. Commit our change to the branch (将修改内容提交到分支)
+    4. Commit our change to the branch (将修改内容提交到分支)
 
     ```bash
     git commit -m "Hanyang University Your name"
     ```
 
-    4. Push your branch to you GitHub fork (将分支推送到GitHub的副本中)
+    5. Push your branch to you GitHub fork (将分支推送到GitHub的副本中)
 
     ```bash
     git push origin test
     ```
 
+6. push的时候，会让你输入你的github信息，按要求输入即可
 
+7. 打开你的github，会看到你创建的分支
+
+   ![branch](./img/branch.png)
 
 ## Pull Request
 
