@@ -4,21 +4,38 @@
 
 ## Download and Install git (下载和安装git)
 
-1. link (链接): https://git-scm.com/
+1. download link (下载链接并按照提示安装): https://git-scm.com/
+
 2. Setup Git Environment Variables (配置git环境变量)
 
-![systemenviroment](./img/systemenviroment.png)
+   1. Search "env" at task bar (在win10搜索框搜索关键字“env”或者“环境变量”)
 
-## Sign up GitHub
+      ![](./img/env.jpg)
+
+   2. click Environment Variables button (点击环境变量)
+
+      ![](./img/env2.jpg)
+
+   3. click **Path** and edit (点系统变量中的Pathr然后点击编辑)
+
+      ![](./img/env3.jpg)
+
+   4. add Git path (添加路径， 根据自己安装的路径进行添加)
+
+   ![](./img/systemenviroment.png)
+
+
+
+## Sign up GitHub (注册GitHub账号)
 
 1. link (链接): https://github.com/
 
 
 
-## Fork the Project
+## Fork the Project (从源项目派生一个完全属于自己的项目副本)
 
-1. open link (打开链接): https://github.com/seculayer/AI_Competitions_2
-2. click Fork button (点击Fork):
+1. open link (用浏览器打开源项目链接): https://github.com/seculayer/AI_Competitions_2
+2. click Fork button (点击Fork按钮):
 
 ![fork](./img/fork.jpg)
 
@@ -28,16 +45,16 @@
 
 
 
-## Clone the Project
+## Clone the Project (将派生的项目克隆到本地)
 
 1. open cmd or terminal (打开命令提示符(windows)或者终端(mac or linux))
-2. choose your dir to download the project (选择下载仓库的路径)
+2. choose your dir to download the project (选择下载项目的路径)
 
 ```bash
 cd yourdir
 ```
 
-3. download the forked project (下载项目，链接如图所示)
+3. download the forked project (下载项目，链接如图所示，用浏览器打开自己的GitHub页面并选择派生的项目然后点击Code按钮可以获得派生项目的URL， 然后在cmd或者终端输入下面的命令，下面的命令后面的URL换成自己的)
 
 ```bash
 git clone https://github.com/shengmincui/AI_Competitions_2.git
@@ -95,13 +112,13 @@ git clone https://github.com/shengmincui/AI_Competitions_2.git
 
 6. When you push, you will be asked to type in your github information, just type it in as required (push的时候，会让你输入你的github信息，按要求输入即可)
 
-7. Open your github web page and you will see the branch you created (打开你的github页面，会看到你创建的分支)
+7. Open your github web page and you will see the branch you created (用浏览器打开你的github页面，会看到你创建的分支)
 
    ![branch](./img/branch.png)
 
 ## Pull Request
 
-1. open your github link: https://github.com/shengmincui/AI_Competitions_2
+1. open your github link (用浏览器打开自己的GitHub上派生的项目页面): https://github.com/shengmincui/AI_Competitions_2
 2. change your branch (选择你的分支， 如下图所示)
 3. click Pull request button (点击Pull request 按钮， 如下图所示)
 
