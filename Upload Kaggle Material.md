@@ -81,17 +81,17 @@ git clone https://github.com/shengmincui/AI_Competitions_2.git
     git add .
     ```
 
-    4. Commit our change to the branch (将修改内容提交到分支)
+4. Commit our change to the branch (将修改内容提交到分支)
 
-    ```bash
-    git commit -m "Hanyang University Your name"
-    ```
+   ```bash
+   git commit -m "Hanyang University Your name"
+   ```
 
-    5. Push your branch to you GitHub fork (将分支推送到GitHub的副本中)
+5. Push your branch to you GitHub fork (将分支推送到GitHub的副本中)
 
-    ```bash
-    git push origin test
-    ```
+   ```bash
+   git push origin test
+   ```
 
 6. When you push, you will be asked to type in your github information, just type it in as required (push的时候，会让你输入你的github信息，按要求输入即可)
 
@@ -102,8 +102,8 @@ git clone https://github.com/shengmincui/AI_Competitions_2.git
 ## Pull Request
 
 1. open your github link: https://github.com/shengmincui/AI_Competitions_2
-2. change your branch (选择你的分支)
-3. click Pull request button (点击Pull request 按钮)
+2. change your branch (选择你的分支， 如下图所示)
+3. click Pull request button (点击Pull request 按钮， 如下图所示)
 
 ![](./img/pullrequest1.jpg)
 
