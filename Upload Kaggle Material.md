@@ -44,7 +44,7 @@ git clone https://github.com/shengmincui/AI_Competitions_2.git
 
 ![](./img/kagglefile.jpg)
 
-1. 将需要提交的所有文件放在一个文件夹里，命名为kaggle比赛的名字
+1. 将需要提交的所有文件放在一个文件夹里，命名为kaggle比赛的ID(注意：ID不等于比赛名字，ID可以在对应URL中找到)
 
    ![projectfile](./img/projectfile.png)
 
