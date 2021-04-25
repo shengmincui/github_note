@@ -5,7 +5,7 @@
 ## Download and Install git (下载和安装git)
 
 1. link (链接): https://git-scm.com/
-2. 配置git环境变量
+2. Setup Git Environment Variables (配置git环境变量)
 
 ![systemenviroment](./img/systemenviroment.png)
 
@@ -22,7 +22,7 @@
 
 ![fork](./img/fork.jpg)
 
-3. Fork之后会进入自己的github仓库，如图，自己的仓库中出现了AI_Competitions_2的项目
+3. After Fork, enter your github page, as shown in the figure, the AI_Competitions_2 project appears in your repositories (Fork之后会进入自己的github仓库，如图，自己的仓库中出现了AI_Competitions_2的项目)
 
    ![myproject](./img/myproject.png)
 
@@ -31,6 +31,13 @@
 ## Clone the Project
 
 1. open cmd or terminal (打开命令提示符(windows)或者终端(mac or linux))
+2. choose your dir to download the project (选择下载仓库的路径)
+
+```bash
+cd yourdir
+```
+
+3. download the forked project (下载项目，链接如图所示)
 
 ```bash
 git clone https://github.com/shengmincui/AI_Competitions_2.git
@@ -38,17 +45,17 @@ git clone https://github.com/shengmincui/AI_Competitions_2.git
 
 ![clonelink](./img/clonelink.jpg)
 
-2. AI_Competitions_2文件夹已经成功下载到本地
+4. You can see that the AI_Competitions_2 folder has been downloaded to the local (AI_Competitions_2文件夹已经成功下载到本地)
 
 ## Prepare your kaggle files
 
 ![](./img/kagglefile.jpg)
 
-1. 将需要提交的所有文件放在一个文件夹里，命名为kaggle比赛的ID(注意：ID不等于比赛名字，ID可以在对应URL中找到)
+1. Put all the files that need to be submitted in a folder and name it the ID of the kaggle competition (Note: ID is not equal to the name of the competition, the ID can be found in the corresponding URL) (将需要提交的所有文件放在一个文件夹里，命名为kaggle比赛的ID(注意：ID不等于比赛名字，ID可以在对应URL中找到)
 
    ![projectfile](./img/projectfile.png)
 
-2. 将整个文件放到下载的AI_Competitions_2/kaggle中
+2. Put the entire folder in the downloaded AI_Competitions_2/kaggle (将整个文件放到下载的AI_Competitions_2/kaggle中)
 
    ![file](./img/file.png)
 
@@ -56,7 +63,7 @@ git clone https://github.com/shengmincui/AI_Competitions_2.git
 
 ## Submit Your Files (提交你的文件)
 
- 1. 进入终端，进入到AI_Competitions_2路径
+ 1. Open cmd or terminal and enter the AI_Competitions_2 folder (进入终端，进入到AI_Competitions_2路径)
 
     ![cmd-AI](./img/cmd-AI.png)
 
@@ -86,17 +93,17 @@ git clone https://github.com/shengmincui/AI_Competitions_2.git
     git push origin test
     ```
 
-6. push的时候，会让你输入你的github信息，按要求输入即可
+6. When you push, you will be asked to type in your github information, just type it in as required (push的时候，会让你输入你的github信息，按要求输入即可)
 
-7. 打开你的github，会看到你创建的分支
+7. Open your github web page and you will see the branch you created (打开你的github页面，会看到你创建的分支)
 
    ![branch](./img/branch.png)
 
 ## Pull Request
 
 1. open your github link: https://github.com/shengmincui/AI_Competitions_2
-2. change your branch
-3. click Pull request button
+2. change your branch (选择你的分支)
+3. click Pull request button (点击Pull request 按钮)
 
 ![](./img/pullrequest1.jpg)
 
