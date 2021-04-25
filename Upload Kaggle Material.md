@@ -45,20 +45,13 @@ git clone https://github.com/shengmincui/AI_Competitions_2.git
 
 ## Submit Your Files (提交你的文件)
 
- 1. Config your GitHub information
-
-    ```bash
-    git config --global user.email "your@example.com"
-    git config --global user.name "Your Name"
-    ```
-
- 2. Create a Branch (创建一个分支)
+ 1. Create a Branch (创建一个分支)
 
     ```bash
     git checkout -b test
     ```
 
- 3. Save your changes (保存修改)
+ 2. Save your changes (保存修改)
 
     ```bash
     git add .
