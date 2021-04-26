@@ -16,13 +16,17 @@
 
       ![](./img/env2.jpg)
 
-   3. click **Path** and edit (点系统变量中的Pathr然后点击编辑)
+   3. click **Path** and edit (点系统变量中的Path然后点击编辑)
 
       ![](./img/env3.jpg)
 
-   4. add Git path (添加路径， 根据自己安装的路径进行添加)
+      4.click new（点新建，添加路径）
 
-   ![](./img/systemenviroment.png)
+      ![new](./img/new.png)
+
+      5. add Git path (添加bin路径， 根据自己安装的路径进行添加)
+
+   ![](./img/path.png)
 
 
 
@@ -54,7 +58,9 @@
 cd yourdir
 ```
 
-3. download the forked project (下载项目，链接如图所示，用浏览器打开自己的GitHub页面并选择派生的项目然后点击Code按钮可以获得派生项目的URL， 然后在cmd或者终端输入下面的命令，下面的命令后面的URL换成自己的)
+3. download the forked project (下载项目，链接如图所示，用浏览器打开自己的GitHub页面并选择派生的项目，然后点击Code按钮可以获得派生项目的URL， 然后在cmd或者终端输入下面的命令，下面的命令后面的URL换成自己的)
+
+   格式：git clone 刚刚获得的URL
 
 ```bash
 git clone https://github.com/shengmincui/AI_Competitions_2.git
