@@ -10,7 +10,7 @@
 
 #### 1.2.1. Search "env " at task bar (在win10搜索框搜索关键字“env”或者“环境变量”)
 
-<img src="./img/env.jpg" style="zoom:60%; float:left"/>
+<img src="./img/env.jpg" width="600px" align="left"/>
 
 
 
@@ -18,13 +18,19 @@
 
 <img src="./img/env2.jpg" width="400px" align="left"/>
 
+
+
 #### 1.2.3. click **Path** and edit (点系统变量中的Path然后点击编辑)
 
 <img src="./img/env3.jpg" width="500px" align="left"/>
 
+
+
 #### 1.2.4. click new（点新建，添加路径）
 
 <img src="./img/env4.png" width="500px" align="left"/>
+
+
 
 #### 1.2.5. add Git path (添加bin路径， 根据自己安装的路径进行添加，然后点击确定)
 
