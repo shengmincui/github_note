@@ -28,6 +28,8 @@
 
 <div align=left><img src="./img/env5.png" width="500px" /></div>
 
+
+
 ## 2. Sign up GitHub (注册GitHub账号)
 
 ### 2.1. GitHub link (链接): https://github.com/
@@ -40,11 +42,11 @@
 
 ### 3.2. click Fork button (点击Fork按钮):
 
-<img src="./img/fork.jpg" width="800px" align="left"/>
+<div align=left><img src="./img/fork.jpg" width="800px" /></div>
 
 ### 3.3. After Fork, enter your github page, as shown in the figure, the AI_Competitions_2 project appears in your repositories (Fork之后会进入自己的github仓库，如图，自己的仓库中出现了AI_Competitions_2的项目)
 
-<img src="./img/myproject.png" width="800px" align="left"/>
+<div align=left><img src="./img/myproject.png" width="800px" /></div>
 
 
 
@@ -60,7 +62,7 @@ cd yourdir
 
 e.g. (例子)
 
-<img src="./img/cmddireg.jpg" width="400px" align="left"/>
+<div align=left><img src="./img/cmddireg.jpg" width="400px" /></div>
 
 ### 4.3. download the forked project (下载项目，链接如图所示，用浏览器打开自己的GitHub页面并选择派生的项目，然后点击Code按钮可以获得派生项目的URL， 然后在cmd或者终端输入下面的命令)
 
@@ -68,15 +70,17 @@ e.g. (例子)
 git clone URL(of your forked project)
 ```
 
-<img src="./img/clonelink.jpg" width="600px" align="left"/>
+<div align=left><img src="./img/clonelink.jpg" width="600px" /></div>
 
 e.g. (例子)
 
-<img src="./img/cmdcloneeg.jpg" width="700px" align="left"/>
+<div align=left><img src="./img/cmdcloneeg.jpg" width="700px" /></div>
 
 ### 4.4. You can see that the AI_Competitions_2 folder has been downloaded to the local (AI_Competitions_2文件夹已经成功下载到本地)
 
-<img src="./img/downloadedfold.jpg" width="600px" align="left"/>
+<div align=left><img src="./img/downloadedfold.jpg" width="600px" /></div>
+
+
 
 ## Prepare your kaggle files
 
