@@ -2,73 +2,83 @@
 
 
 
-## Download and Install git (下载和安装git)
+## 1. Download and Install Git (下载和安装Git)
 
-1. download link (下载链接并按照提示安装): https://git-scm.com/
+### 1.1. Git download link (下载链接并按照提示安装): https://git-scm.com/
 
-2. Setup Git Environment Variables (配置git环境变量)
+### 1.2. Add Git to System Environment Variables (配置git环境变量)
 
-   1. Search "env" at task bar (在win10搜索框搜索关键字“env”或者“环境变量”)
+#### 1.2.1. Search "env " at task bar (在win10搜索框搜索关键字“env”或者“环境变量”)
 
-      ![](./img/env.jpg)
+<img src="./img/env.jpg" width="600px" align="left"/>
 
-   2. click Environment Variables button (点击环境变量)
+#### 1.2.2. click Environment Variables button (点击环境变量按钮)
 
-      ![](./img/env2.jpg)
+<img src="./img/env2.jpg" width="400px" align="left"/>
 
-   3. click **Path** and edit (点系统变量中的Path然后点击编辑)
+#### 1.2.3. click **Path** and edit (点系统变量中的Path然后点击编辑)
 
-      ![](./img/env3.jpg)
+<img src="./img/env3.jpg" width="500px" align="left"/>
 
-      4.click new（点新建，添加路径）
+#### 1.2.4. click new（点新建，添加路径）
 
-      ![new](./img/new.png)
+<img src="./img/env4.png" width="500px" align="left"/>
 
-      5. add Git path (添加bin路径， 根据自己安装的路径进行添加)
+#### 1.2.5. add Git path (添加bin路径， 根据自己安装的路径进行添加，然后点击确定)
 
-   ![](./img/path.png)
-
-
-
-## Sign up GitHub (注册GitHub账号)
-
-1. link (链接): https://github.com/
+<img src="./img/env5.png" width="500px" align="left"/>
 
 
 
-## Fork the Project (从源项目派生一个完全属于自己的项目副本)
+## 2. Sign up GitHub (注册GitHub账号)
 
-1. open link (用浏览器打开源项目链接): https://github.com/seculayer/AI_Competitions_2
-2. click Fork button (点击Fork按钮):
-
-![fork](./img/fork.jpg)
-
-3. After Fork, enter your github page, as shown in the figure, the AI_Competitions_2 project appears in your repositories (Fork之后会进入自己的github仓库，如图，自己的仓库中出现了AI_Competitions_2的项目)
-
-   ![myproject](./img/myproject.png)
+### 2.1. GitHub link (链接): https://github.com/
 
 
 
-## Clone the Project (将派生的项目克隆到本地)
+## 3. Fork the Project (从源项目派生一个完全属于自己的项目副本)
 
-1. open cmd or terminal (打开命令提示符(windows)或者终端(mac or linux))
-2. choose your dir to download the project (选择下载项目的路径)
+### 3.1. open link (用浏览器打开源项目链接): https://github.com/seculayer/AI_Competitions_2
+
+### 3.2. click Fork button (点击Fork按钮):
+
+<img src="./img/fork.jpg" width="800px" align="left"/>
+
+### 3.3. After Fork, enter your github page, as shown in the figure, the AI_Competitions_2 project appears in your repositories (Fork之后会进入自己的github仓库，如图，自己的仓库中出现了AI_Competitions_2的项目)
+
+<img src="./img/myproject.png" width="800px" align="left"/>
+
+
+
+## 4. Clone the Project (将派生的项目克隆到本地)
+
+### 4.1. open cmd or terminal (打开命令提示符(windows)或者终端(mac or linux))
+
+### 4.2. choose your dir to download the project (选择下载项目的路径)
 
 ```bash
 cd yourdir
 ```
 
-3. download the forked project (下载项目，链接如图所示，用浏览器打开自己的GitHub页面并选择派生的项目，然后点击Code按钮可以获得派生项目的URL， 然后在cmd或者终端输入下面的命令，下面的命令后面的URL换成自己的)
+e.g. (例子)
 
-   格式：git clone 刚刚获得的URL
+<img src="./img/cmddireg.jpg" width="400px" align="left"/>
+
+### 4.3. download the forked project (下载项目，链接如图所示，用浏览器打开自己的GitHub页面并选择派生的项目，然后点击Code按钮可以获得派生项目的URL， 然后在cmd或者终端输入下面的命令)
 
 ```bash
-git clone https://github.com/shengmincui/AI_Competitions_2.git
+git clone URL(of your forked project)
 ```
 
-![clonelink](./img/clonelink.jpg)
+<img src="./img/clonelink.jpg" width="600px" align="left"/>
 
-4. You can see that the AI_Competitions_2 folder has been downloaded to the local (AI_Competitions_2文件夹已经成功下载到本地)
+e.g. (例子)
+
+<img src="./img/cmdcloneeg.jpg" width="700px" align="left"/>
+
+### 4.4. You can see that the AI_Competitions_2 folder has been downloaded to the local (AI_Competitions_2文件夹已经成功下载到本地)
+
+<img src="./img/downloadedfold.jpg" width="600px" align="left"/>
 
 ## Prepare your kaggle files
 
