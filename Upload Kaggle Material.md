@@ -13,7 +13,6 @@
 <img src="./img/env.jpg" width="600px" align="left"/>
 
 
-
 #### 1.2.2. click Environment Variables button (点击环境变量按钮)
 
 <img src="./img/env2.jpg" width="400px" align="left"/>
