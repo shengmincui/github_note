@@ -146,7 +146,7 @@ Note:
 ### 6. 1. Open cmd or terminal and enter the AI_Competitions_2 folder (进入终端，进入到AI_Competitions_2路径)
 <img src="./img/cmd-AI.png" width="400px"></img>
 
-### 6. 2. Setup your identity
+### 6. 2. Setup your identity (设置你的身份)
 
 ```bash
 git config --global user.name "your GitHub name"
@@ -165,7 +165,7 @@ git add .
 git commit -m "Hanyang University Your Name"
 ```
 
-### 6. 5. Push your branch to you GitHub fork (将提交的改变推送到自己forked的GitHub的副本中)
+### 6. 5. Push your commit to your GitHub fork (将提交的改变推送到自己forked的GitHub的副本中)
 
 ```bash
 git push origin main
@@ -185,26 +185,19 @@ git push origin main
 
 
 
-## Update from Forked Project (更新你派生的仓库)
+## 8. Update from Forked Project (更新你派生的仓库)
 
-1. Return to your branch (回到你设定的分支)
-
-```bash
-git checkout test
-```
-
-2. Fetch changes from forked project and merge them into your branch (从源仓库获取更改并且合并到你的分支)
+### 8. 1. Fetch changes from forked project and merge them into your branch (从源仓库获取更新改并且合并到你的本地仓库)
 
 ```bash
 git pull https://github.com/seculayer/AI_Competitions_2.git
 ```
 
-3. Push your branch to origin (将你的分支推送到origin)
+### 8. 2. Push your branch to origin (将你的本地修改推送到你的GitHub仓库)
 
 ```bash
-git push origin test
+git push origin main
 ```
-
 
 
 ## Reference (参考)
