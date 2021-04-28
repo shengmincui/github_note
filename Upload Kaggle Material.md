@@ -18,15 +18,15 @@
 
 #### 1.2.3. click **Path** and edit (点系统变量中的Path然后点击编辑)
 
-<img src="./img/env3.jpg" width="500px"></img>
+<img src="./img/env3.jpg" width="400px"></img>
 
 #### 1.2.4. click new (点新建，添加路径)
 
-<img src="./img/env4.png" width="500px"></img>
+<img src="./img/env4.png" width="400px"></img>
 
 #### 1.2.5. add Git path (添加bin路径， 根据自己安装的路径进行添加，然后点击确定) 
 
-<img src="./img/env5.png" width="500px"></img>
+<img src="./img/env5.png" width="400px"></img>
 
 
 
