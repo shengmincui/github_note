@@ -42,11 +42,11 @@
 
 ### 3.2. click Fork button (点击Fork按钮):
 
-<img src="./img/fork.jpg" width="800px"></img>
+<img src="./img/fork.jpg" width="600px"></img>
 
 ### 3.3. After Fork, enter your github page, as shown in the figure, the AI_Competitions_2 project appears in your repositories (Fork之后会进入自己的github仓库，如图，自己的仓库中出现了AI_Competitions_2的项目)
 
-<img src="./img/myproject.png" width="800px"></img>
+<img src="./img/myproject.png" width="600px"></img>
 
 
 
