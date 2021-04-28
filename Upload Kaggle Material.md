@@ -150,7 +150,7 @@ Note:
 
 ```bash
 git config --global user.name "your GitHub name"
-git config --global user.email "your GitHub	 email"
+git config --global user.email "your GitHub email"
 ```
 
 ### 6. 3. Adding files to the repository (将文件添加到版本库中)
