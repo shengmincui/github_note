@@ -103,7 +103,13 @@ kaggle/
 #### 5. 1. 1. Create new folder (新建文件夹)
 <img src="./img/createnewfolder.png" width="600px"></img>
 
-#### 5. 1. 2. Get the ID of the kaggle subject  (获取kaggle比赛项目的ID，用浏览器打开kaggle比赛的页面，kaggle的ID)
+#### 5. 1. 2. Get the ID of the kaggle subject  (获取kaggle比赛项目的ID)
+
+The kaggle competition ID can be obtained from the competition URL.
+
+e.g. If the URL of the competition is https://www.kaggle.com/c/Kannada-MNIST, the ID is Kannada-MNIST
+
+
 
 
 1. Put all the files that need to be submitted in a folder and name it the ID of the kaggle competition (Note: ID is not equal to the name of the competition, the ID can be found in the corresponding URL) (将需要提交的所有文件放在一个文件夹里，命名为kaggle比赛的ID(注意：ID不等于比赛名字，ID可以在对应URL中找到)
