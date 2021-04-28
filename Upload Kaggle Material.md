@@ -133,7 +133,7 @@ Note:
 ![](./img/yourimagename)
 ```
 
-2. The syntax for adding a hyperlink is (在README.md里添加图片的语法是):
+2. The syntax for adding a hyperlink is (在README.md里添加超链接的语法是):
 
 ```markdown
 [](./yourcodename)
