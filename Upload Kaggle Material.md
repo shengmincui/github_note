@@ -109,20 +109,39 @@ The kaggle competition ID can be obtained from the competition URL.
 
 e.g. If the URL of the competition is https://www.kaggle.com/c/Kannada-MNIST, the ID is Kannada-MNIST
 
+### 5. 2. Prepare your files (准备你的文件，所需文件如下图所示)
+
+<img src="./img/folderstructure.png" width="400px"></img>
+
+#### 5. 2. 1. Prepare your screenshot and code (准备你的排名截图和代码)
+
+<img src="./img/preparefolder.png" width="400px"></img>
+
+#### 5. 2. 2. Edit "metadata.yaml" file (编辑metadata.yaml文件，可以从titanic文件夹里复制过来进行修改)
+
+<img src="./img/editmetadata.png" width="500px"></img>
+
+#### 5. 2. 3. Edit "README.me" file (编辑README.me文件，使用markdown语言，建议使用typora进行编辑)
+
+<img src="./img/editreadme.png" width="500px"></img>
+
+Note: 
+
+1. The syntax for adding an image is (在README.md里添加图片的语法是):
+
+```markdown
+![](./img/yourimagename)
+```
+
+2. The syntax for adding a hyperlink is (在README.md里添加图片的语法是):
+
+```markdown
+[](./yourcodename)
+```
 
 
 
-1. Put all the files that need to be submitted in a folder and name it the ID of the kaggle competition (Note: ID is not equal to the name of the competition, the ID can be found in the corresponding URL) (将需要提交的所有文件放在一个文件夹里，命名为kaggle比赛的ID(注意：ID不等于比赛名字，ID可以在对应URL中找到)
-
-   ![projectfile](./img/projectfile.png)
-
-2. Put the entire folder in the downloaded AI_Competitions_2/kaggle (将整个文件放到下载的AI_Competitions_2/kaggle中)
-
-   ![file](./img/file.png)
-
-
-
-## Submit Your Files (提交你的文件)
+## 6. Submit Your Files (提交你的文件)
 
  1. Open cmd or terminal and enter the AI_Competitions_2 folder (进入终端，进入到AI_Competitions_2路径)
 
