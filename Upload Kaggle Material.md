@@ -101,7 +101,7 @@ kaggle/
 ### 5. 1. Create a new folder in the local "AI_Competitions_2/kaggle" folder, and use the Kaggle subject ID as the folder name (在本地的"AI_Competitions_2/kaggle"文件夹里面新建文件夹，并以Kaggle subject的ID作为文件夹名)
 
 #### 5. 1. 1. Create new folder (新建文件夹)
-<img src="./img/createnewfolder.png" width="600px"></img>
+<img src="./img/createnewfolder.jpg" width="600px"></img>
 
 #### 5. 1. 2. Get the ID of the kaggle subject  (获取kaggle比赛项目的ID)
 
@@ -123,7 +123,7 @@ e.g. If the URL of the competition is https://www.kaggle.com/c/Kannada-MNIST, th
 
 #### 5. 2. 3. Edit "README.me" file (编辑README.me文件，使用markdown语言，建议使用typora进行编辑)
 
-<img src="./img/editreadme.png" width="500px"></img>
+<img src="./img/editreadme.png" width="600px"></img>
 
 Note: 
 
