@@ -175,11 +175,14 @@ git push origin main
 
    ![branch](./img/branch.png)
 
-## Pull Request
+## 7. Pull Request
 
-1. open your github link (用浏览器打开自己的GitHub上派生的项目页面): https://github.com/shengmincui/AI_Competitions_2
-2. change your branch (选择你的分支， 如下图所示)
-3. click Pull request button (点击Pull request 按钮， 如下图所示)
+### 7. 1. open your GitHub link (用浏览器打开自己的GitHub上派生的项目页面): 
+e.g.
+https://github.com/shengmincui/AI_Competitions_2
+
+
+### 7. 2. click Pull request button (点击Pull request 按钮， 如下图所示)
 
 ![](./img/pullrequest1.jpg)
 
@@ -187,13 +190,17 @@ git push origin main
 
 ## 8. Update from Forked Project (更新你派生的仓库)
 
-### 8. 1. Fetch changes from forked project and merge them into your branch (从源仓库获取更新改并且合并到你的本地仓库)
+### 8. 1. Open cmd or terminal and enter the AI_Competitions_2 folder (进入终端，进入到AI_Competitions_2路径)
+<img src="./img/cmd-AI.png" width="400px"></img>
+
+
+### 8. 2. Fetch changes from forked project and merge them into your branch (从源仓库获取更新改并且合并到你的本地仓库)
 
 ```bash
 git pull https://github.com/seculayer/AI_Competitions_2.git
 ```
 
-### 8. 2. Push your branch to origin (将你的本地修改推送到你的GitHub仓库)
+### 8. 3. Push your branch to origin (将你的本地修改推送到你的GitHub仓库)
 
 ```bash
 git push origin main
