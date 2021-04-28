@@ -143,39 +143,35 @@ Note:
 
 ## 6. Submit Your Files (提交你的文件)
 
- 1. Open cmd or terminal and enter the AI_Competitions_2 folder (进入终端，进入到AI_Competitions_2路径)
+### 6. 1. Open cmd or terminal and enter the AI_Competitions_2 folder (进入终端，进入到AI_Competitions_2路径)
+<img src="./img/cmd-AI.png" width="400px"></img>
 
-    ![cmd-AI](./img/cmd-AI.png)
+### 6. 2. Setup your identity
 
- 2. Create a Branch (创建并进入一个分支)
+```bash
+git config --global user.name "your GitHub name"
+git config --global user.email "your GitHub	 email"
+```
 
-    命令为 git checkout -b 分支名
+### 6. 3. Adding files to the repository (将文件添加到版本库中)
 
-    ```bash
-    git checkout -b test
-    ```
+```bash
+git add .
+```
 
- 3. Save your changes (保存修改)
+### 6. 4. commit (提交改变)
 
-    ```bash
-    git add .
-    ```
+```bash
+git commit -m "Hanyang University Your Name"
+```
 
-4. Commit our change to the branch (将修改内容提交到分支)
+### 6. 5. Push your branch to you GitHub fork (将提交的改变推送到自己forked的GitHub的副本中)
 
-   ```bash
-   git commit -m "Hanyang University Your name"
-   ```
+```bash
+git push origin main
+```
 
-5. Push your branch to you GitHub fork (将分支推送到GitHub的副本中)
-
-   ```bash
-   git push origin test
-   ```
-
-6. When you push, you will be asked to type in your github information, just type it in as required (push的时候，会让你输入你的github信息，按要求输入即可)
-
-7. Open your github web page and you will see the branch you created (用浏览器打开你的github页面，会看到你创建的分支)
+### 6. 6. Open your GitHub web page and you will see the changes you created (用浏览器打开你的github页面，会看到你修改的内容)
 
    ![branch](./img/branch.png)
 
