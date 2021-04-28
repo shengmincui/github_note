@@ -42,11 +42,11 @@
 
 ### 3.2. click Fork button (点击Fork按钮):
 
-<div align=left><img src="./img/fork.jpg" width="800px" /></div>
+<img src="./img/fork.jpg" width="800px"></img>
 
 ### 3.3. After Fork, enter your github page, as shown in the figure, the AI_Competitions_2 project appears in your repositories (Fork之后会进入自己的github仓库，如图，自己的仓库中出现了AI_Competitions_2的项目)
 
-<div align=left><img src="./img/myproject.png" width="800px" /></div>
+<img src="./img/myproject.png" width="800px"></img>
 
 
 
@@ -62,7 +62,7 @@ cd yourdir
 
 e.g. (例子)
 
-<div align=left><img src="./img/cmddireg.jpg" width="400px" /></div>
+<img src="./img/cmddireg.jpg" width="400px" ></img>
 
 ### 4.3. download the forked project (下载项目，链接如图所示，用浏览器打开自己的GitHub页面并选择派生的项目，然后点击Code按钮可以获得派生项目的URL， 然后在cmd或者终端输入下面的命令)
 
@@ -70,15 +70,15 @@ e.g. (例子)
 git clone URL(of your forked project)
 ```
 
-<div align=left><img src="./img/clonelink.jpg" width="600px" /></div>
+<img src="./img/clonelink.jpg" width="600px"></img>
 
 e.g. (例子)
 
-<div align=left><img src="./img/cmdcloneeg.jpg" width="700px" /></div>
+<img src="./img/cmdcloneeg.jpg" width="700px"></img>
 
 ### 4.4. You can see that the AI_Competitions_2 folder has been downloaded to the local (AI_Competitions_2文件夹已经成功下载到本地)
 
-<div align=left><img src="./img/downloadedfold.jpg" width="600px" /></div>
+<img src="./img/downloadedfold.jpg" width="600px"></img>
 
 
 
