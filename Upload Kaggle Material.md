@@ -4,27 +4,27 @@
 
 ## 1. Download and Install Git (下载和安装Git)
 
-### 1.1. Git download link (下载链接并按照提示安装): https://git-scm.com/
+### 1. 1. Git download link (下载链接并按照提示安装): https://git-scm.com/
 
-### 1.2. Add Git to System Environment Variables (配置git环境变量)
+### 1. 2. Add Git to System Environment Variables (配置git环境变量)
 
-#### 1.2.1. Search "env " at task bar (在win10搜索框搜索关键字“env”或者“环境变量”)
+#### 1. 2. 1. Search "env " at task bar (在win10搜索框搜索关键字“env”或者“环境变量”)
 
 <img src="./img/env.jpg" width="500px" ></img>
 
-#### 1.2.2. click Environment Variables button (点击环境变量按钮)
+#### 1. 2. 2. click Environment Variables button (点击环境变量按钮)
 
 <img src="./img/env2.jpg" width="400px"></img>
 
-#### 1.2.3. click **Path** and edit (点系统变量中的Path然后点击编辑)
+#### 1. 2. 3. click **Path** and edit (点系统变量中的Path然后点击编辑)
 
 <img src="./img/env3.jpg" width="400px"></img>
 
-#### 1.2.4. click new (点新建，添加路径)
+#### 1. 2. 4. click new (点新建，添加路径)
 
 <img src="./img/env4.png" width="400px"></img>
 
-#### 1.2.5. add Git path (添加bin路径， 根据自己安装的路径进行添加，然后点击确定) 
+#### 1. 2. 5. add Git path (添加bin路径， 根据自己安装的路径进行添加，然后点击确定) 
 
 <img src="./img/env5.png" width="400px"></img>
 
@@ -32,19 +32,19 @@
 
 ## 2. Sign up GitHub (注册GitHub账号)
 
-### 2.1. GitHub link (链接): https://github.com/
+### 2. 1. GitHub link (链接): https://github.com/
 
 
 
 ## 3. Fork the Project (从源项目派生一个完全属于自己的项目副本)
 
-### 3.1. open link (用浏览器打开源项目链接): https://github.com/seculayer/AI_Competitions_2
+### 3. 1. open link (用浏览器打开源项目链接): https://github.com/seculayer/AI_Competitions_2
 
-### 3.2. click Fork button (点击Fork按钮):
+### 3. 2. click Fork button (点击Fork按钮):
 
 <img src="./img/fork.jpg" width="600px"></img>
 
-### 3.3. After Fork, enter your github page, as shown in the figure, the AI_Competitions_2 project appears in your repositories (Fork之后会进入自己的github仓库，如图，自己的仓库中出现了AI_Competitions_2的项目)
+### 3. 3. After Fork, enter your github page, as shown in the figure, the AI_Competitions_2 project appears in your repositories (Fork之后会进入自己的github仓库，如图，自己的仓库中出现了AI_Competitions_2的项目)
 
 <img src="./img/myproject.png" width="600px"></img>
 
@@ -52,9 +52,9 @@
 
 ## 4. Clone the Project (将派生的项目克隆到本地)
 
-### 4.1. open cmd or terminal (打开命令提示符(windows)或者终端(mac or linux))
+### 4. 1. open cmd or terminal (打开命令提示符(windows)或者终端(mac or linux))
 
-### 4.2. choose your dir to download the project (选择下载项目的路径)
+### 4. 2. choose your dir to download the project (选择下载项目的路径)
 
 ```bash
 cd yourdir
@@ -64,7 +64,7 @@ e.g. (例子)
 
 <img src="./img/cmddireg.jpg" width="400px" ></img>
 
-### 4.3. download the forked project (下载项目，链接如图所示，用浏览器打开自己的GitHub页面并选择派生的项目，然后点击Code按钮可以获得派生项目的URL， 然后在cmd或者终端输入下面的命令)
+### 4. 3. download the forked project (下载项目，链接如图所示，用浏览器打开自己的GitHub页面并选择派生的项目，然后点击Code按钮可以获得派生项目的URL， 然后在cmd或者终端输入下面的命令)
 
 ```bash
 git clone URL(of your forked project)
@@ -76,15 +76,35 @@ e.g. (例子)
 
 <img src="./img/cmdcloneeg.jpg" width="700px"></img>
 
-### 4.4. You can see that the AI_Competitions_2 folder has been downloaded to the local (AI_Competitions_2文件夹已经成功下载到本地)
+### 4. 4. You can see that the AI_Competitions_2 folder has been downloaded to the local (AI_Competitions_2文件夹已经成功下载到本地)
 
 <img src="./img/downloadedfold.jpg" width="600px"></img>
 
 
 
-## Prepare your kaggle files
+## 5. Prepare your kaggle files
 
-![](./img/kagglefile.jpg)
+The structure of the Kaggle folder is as follows (kaggle文件夹的结构如下):
+
+```console
+kaggle/
+├── titanic/ # 예시 대회
+│  ├── metadata.yaml
+│  ├── README.md
+│  └── *
+└── {kaggle-competition-id}/
+   ├── metadata.yaml
+   ├── README.md
+   └── *
+```
+
+### 5. 1. Create a new folder in the local "AI_Competitions_2/kaggle" folder, and use the Kaggle subject ID as the folder name (在本地的"AI_Competitions_2/kaggle"文件夹里面新建文件夹，并以Kaggle subject的ID作为文件夹名)
+
+#### 5. 1. 1. Create new folder (新建文件夹)
+<img src="./img/createnewfolder.png" width="600px"></img>
+
+#### 5. 1. 2. Get the ID of the kaggle subject  (获取kaggle比赛项目的ID，用浏览器打开kaggle比赛的页面，kaggle的ID)
+
 
 1. Put all the files that need to be submitted in a folder and name it the ID of the kaggle competition (Note: ID is not equal to the name of the competition, the ID can be found in the corresponding URL) (将需要提交的所有文件放在一个文件夹里，命名为kaggle比赛的ID(注意：ID不等于比赛名字，ID可以在对应URL中找到)
 
