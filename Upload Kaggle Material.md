@@ -173,19 +173,26 @@ git push origin main
 
 ### 6. 6. Open your GitHub web page and you will see the changes you created (用浏览器打开你的github页面，会看到你修改的内容)
 
-   ![branch](./img/branch.png)
+<img src="./img/updatedcontent.png" width="500px"></img>
 
 ## 7. Pull Request
 
-### 7. 1. open your GitHub link (用浏览器打开自己的GitHub上派生的项目页面): 
-e.g.
-https://github.com/shengmincui/AI_Competitions_2
 
+### 7. 1. click Pull request button (点击Pull request 按钮， 如下图所示)
 
-### 7. 2. click Pull request button (点击Pull request 按钮， 如下图所示)
+<img src="./img/pr1.png" width="500px"></img>
 
-![](./img/pullrequest1.jpg)
+### 7. 2. click Create pull request button (点击Create pull request 按钮，如下图所示)
 
+<img src="./img/pr2.png" width="500px"></img>
+
+### 7. 3. continue to click Create pull request button (继续点击Create pull request 按钮，如下图所示)
+
+<img src="./img/pr3.png" width="500px"></img>
+
+### 7. 4. Finally, seeing this page means that the pull request was successful (最后，看见这个页面说明pull request成功了)
+
+<img src="./img/pr4.png" width="500px"></img>
 
 
 ## 8. Update from Forked Project (更新你派生的仓库)
