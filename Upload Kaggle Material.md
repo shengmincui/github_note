@@ -10,7 +10,7 @@
 
 #### 1.2.1. Search "env " at task bar (在win10搜索框搜索关键字“env”或者“环境变量”)
 
-<div align=left><img src="./img/env.jpg" width="600px"  /></div>
+<img src="./img/env.jpg" width="600px" ></img>
 
 #### 1.2.2. click Environment Variables button (点击环境变量按钮)
 
