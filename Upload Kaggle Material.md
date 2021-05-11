@@ -119,6 +119,17 @@ e.g. If the URL of the competition is https://www.kaggle.com/c/Kannada-MNIST, th
 
 <img src="./img/preparefolder.png" width="400px"></img>
 
+If you choose a completed competition, you need a screenshot of your private score and a screenshot of the ranking near your score in the leaderboard. (如果你选择的是completed的比赛，则需要你的private分数的截图和leaderboard里你的得分附近的排名的截图)
+
+<img src="./img/kaggleleaderboard1.jpg" width="600px"></img>
+
+<img src="./img/kaggleleaderboard2.jpg" width="600px"></img>
+
+If you choose an active competition, you only need a screenshot of your private leaderboard ranking. (如果你选择的是active的比赛，则只需要你的private leaderboard排名的截图)
+
+<img src="./img/kaggleleaderboard3.jpg" width="600px"></img>
+
+
 #### 5. 2. 2. Edit "metadata.yaml" file (编辑metadata.yaml文件，可以从titanic文件夹里复制过来进行修改)
 
 <img src="./img/editmetadata.png" width="500px"></img>
