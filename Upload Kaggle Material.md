@@ -109,6 +109,8 @@ The kaggle competition ID can be obtained from the competition URL.
 
 e.g. If the URL of the competition is https://www.kaggle.com/c/Kannada-MNIST, the ID is Kannada-MNIST
 
+<img src="./img/kaggleid.jpg" width="600px"></img>
+
 ### 5. 2. Prepare your files (准备你的文件，所需文件如下图所示)
 
 <img src="./img/folderstructure.png" width="400px"></img>
