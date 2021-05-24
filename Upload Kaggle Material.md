@@ -132,7 +132,7 @@ If you choose an active competition, you only need a screenshot of your private 
 
 #### 5. 2. 2. Edit "metadata.yaml" file (编辑metadata.yaml文件，可以从titanic文件夹里复制过来进行修改)
 
-<img src="./img/editmetadata.png" width="500px"></img>
+<img src="./img/editmetadata.png" width="600px"></img>
 
 #### 5. 2. 3. Edit "README.me" file (编辑README.me文件，使用markdown语言，建议使用typora进行编辑)
 
