@@ -208,7 +208,7 @@ git push origin main
 <img src="./img/pr4.png" width="500px"></img>
 
 
-## 8. Update from Forked Project (更新你派生的仓库)
+## 8. If this is not your first commit, update from Forked Project first (如果不是第一次提交结果，首先更新你派生的仓库)
 
 ### 8. 1. Open cmd or terminal and enter the AI_Competitions_2 folder (进入终端，进入到AI_Competitions_2路径)
 <img src="./img/cmd-AI.png" width="400px"></img>
@@ -226,6 +226,7 @@ git pull https://github.com/seculayer/AI_Competitions_2.git
 git push origin main
 ```
 
+### 8. 4. Repeat steps 5 to 7 (重复第五章到第七章的步骤)
 
 ## Reference (参考)
 
