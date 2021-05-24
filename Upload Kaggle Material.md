@@ -220,13 +220,7 @@ git push origin main
 git pull https://github.com/seculayer/AI_Competitions_2.git
 ```
 
-### 8. 3. Push your branch to origin (将你的本地修改推送到你的GitHub仓库)
-
-```bash
-git push origin main
-```
-
-### 8. 4. Repeat steps 5 to 7 (重复第五章到第七章的步骤)
+### 8. 3. Repeat steps 5 to 7 (重复第五章到第七章的步骤)
 
 ## Reference (参考)
 
