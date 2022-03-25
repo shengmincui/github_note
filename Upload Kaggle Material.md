@@ -38,7 +38,7 @@
 
 ## 3. Fork the Project (从源项目派生一个完全属于自己的项目副本)
 
-### 3. 1. open link (用浏览器打开源项目链接): https://github.com/seculayer/AI_Competitions_2
+### 3. 1. open link (用浏览器打开源项目链接): https://github.com/seculayer/AutoAPE-challenge3.git
 
 ### 3. 2. click Fork button (点击Fork按钮):
 
